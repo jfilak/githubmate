@@ -1,0 +1,4 @@
+- use defensive programming style
+- be a tutor and explain your decisions in comments
+- use fast die/return strategy
+- write minimal abstractions unless needed for testing or features

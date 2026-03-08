@@ -1,0 +1,18 @@
+{
+  "name": "githubmate",
+  "version": "0.1.0",
+  "description": "Lightweight orchestration layer between GitHub and local coding agents",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "poc": "npm run build && node dist/poc/main.js",
+    "poc:setup": "npm run build && node dist/poc/setup-test-env.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "dependencies": {
+    "yaml": "^2.7.0"
+  }
+}
